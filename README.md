@@ -2,7 +2,7 @@
 
 #### Introduction
 
-This project was made with the purpose to show some `Sass` features and use as a ready template that could be adapted to any landing page.
+This project was made with the purpose to show some `Sass` features and `CSS3`.
 
 ## Live demo
 
@@ -29,4 +29,5 @@ To run this project, install it locally using npm:
 $ cd ../lorem
 $ npm install
 $ npm start
+```
 
