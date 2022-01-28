@@ -1,0 +1,100 @@
+.story {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+
+  .left-continer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .back-ground {
+      width: 80%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      aspect-ratio: 1/1;
+      background: url(../img//back.jpg) no-repeat center center / cover;
+      figure {
+        width: 80%;
+        position: relative;
+        aspect-ratio: 1/1;
+        background: url(../img//story-1.jpeg) no-repeat center center / cover;
+        div {
+          width: 100%;
+          aspect-ratio: 16/9;
+          position: absolute;
+          background: url(../img//story-2.jpeg) no-repeat center center / cover;
+
+          left: 50%;
+          top: 50%;
+        }
+      }
+    }
+  }
+
+  .right-continer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: $bp-very-small) {
+  .story {
+    height: 60vh;
+    flex-direction: column;
+    .left-continer {
+      display: none;
+    }
+    .right-continer {
+      .heading-3 {
+        font-size: 1.2rem;
+      }
+      .heading-2 {
+        font-size: 1.6rem;
+      }
+      .text {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: $bp-small) and (max-width: $bp-small1) {
+  .story {
+    height: 50vh;
+    .right-continer {
+      .heading-3 {
+        font-size: 1.2rem;
+      }
+      .heading-2 {
+        font-size: 1.6rem;
+      }
+      .text {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: $bp-medium) and (max-width: $bp-medium1) {
+  .story {
+    height: 40vh;
+    .right-continer {
+      .heading-3 {
+        font-size: 1.4rem;
+      }
+      .heading-2 {
+        font-size: 1.8rem;
+      }
+      .text {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

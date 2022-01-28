@@ -1,0 +1,78 @@
+aside {
+  position: fixed;
+  left: -200px;
+  background-color: $color-primary;
+  z-index: 111;
+  height: 100%;
+  width: 200px;
+  transition: all 0.5s ease;
+  padding: 0;
+  .container {
+    ul a {
+      display: block;
+      height: 100%;
+      width: 100%;
+      line-height: 4rem;
+      font-size: 1.5rem;
+      color: white;
+      padding-left: 40px;
+      box-sizing: border-box;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid black;
+      transition: 0.4s;
+    }
+    ul li:hover a {
+      padding-left: 50px;
+    }
+  }
+  i {
+    color: $color-grey-dark-2;
+  }
+}
+
+#check {
+  display: none;
+}
+
+label #side-btn,
+label #cancel {
+  position: absolute;
+  cursor: pointer;
+  background-color: $color-primary;
+  border-radius: 3px;
+}
+
+label #side-btn {
+  position: fixed;
+  z-index: 111;
+  left: 40px;
+  top: 20px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all 0.5s;
+}
+
+label #cancel {
+  position: fixed;
+  z-index: 111;
+  left: -195px;
+  top: 17px;
+  font-size: 30px;
+  color: white;
+  padding: 4px 9px;
+  transition: all 0.5s ease;
+}
+
+#check:checked ~ aside {
+  left: 0;
+}
+
+#check:checked ~ label #side-btn {
+  left: 200px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel {
+  left: 195px;
+}
