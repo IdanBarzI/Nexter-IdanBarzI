@@ -8,3 +8,8 @@ This project was made with the purpose to show some Sass and > CSS3 features and
 
 [Click here](https://idanbarzi.github.io/Nexter-IdanBarzI/).
 
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
