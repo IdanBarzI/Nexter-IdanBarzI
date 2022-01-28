@@ -1,6 +1,6 @@
 ﻿# Nexter-IdanBarzIg
 
-﻿### Live demo
+## Live demo
 
 [Click here](https://idanbarzi.github.io/Nexter-IdanBarzI/).
 
