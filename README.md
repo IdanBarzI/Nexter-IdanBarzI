@@ -1,4 +1,6 @@
-﻿# Nexter-IdanBarzIg
+﻿![image](https://user-images.githubusercontent.com/88895210/151630184-192b701a-c0d8-47e3-817a-0fcee47da443.png)
+ 
+ # Nexter-IdanBarzIg
 
 #### Introduction
 
