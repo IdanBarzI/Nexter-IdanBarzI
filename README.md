@@ -1,5 +1,6 @@
 ﻿![image](https://user-images.githubusercontent.com/88895210/151630184-192b701a-c0d8-47e3-817a-0fcee47da443.png)
  
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=idanbarzi&label=Profile%20views&color=0e75b6&style=flat" alt="idanbarzi" /> </p>
  # Nexter-IdanBarzI
 
 ## Table of contents
